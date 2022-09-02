@@ -1,0 +1,46 @@
+.sidebar{
+    min-height: 100vh;
+    margin-top: 10px;
+    .sidebarContainer{
+        
+        .title{
+            font-size: 18px;
+            height: 10px;
+            margin: 15px;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                cursor: pointer;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                align-content: flex-start;
+
+                &:hover{
+                    background-color: #ece8ff;
+                }
+                span{
+                    font-size: 13px;
+                    font-weight: 600;
+                    color:grey;
+                }
+            }
+            .link{
+                
+                margin-left: 10px;
+                gap: 3px;
+                font-size: 15px;
+                padding:  10px;
+                
+                .icon{
+                    
+                    font-size: 18px;
+                    color: #7451f8;
+                }
+            }
+        }
+    }
+}

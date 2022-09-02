@@ -1,0 +1,34 @@
+.basicTable{
+    padding: 30px 20px 30px 20px;
+    .icons{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: flex-end;
+        gap: 15px;
+        .deleteIcon, .editIcon{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: crimson;
+            border: 1px dotted rgba(220, 20, 60, 0.607);
+            cursor: pointer;
+            .icon{
+                font-size: 15px;
+            }
+        }
+
+        .editIcon{
+            
+            color: darkblue;
+            border: 1px dotted rgba(0, 0, 139, 0.607);
+            
+        }
+    }
+
+    .addUser{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 15px;
+    }
+}
